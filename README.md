@@ -1,20 +1,42 @@
-# Dictionarylab
+# Dictionary Lab
 
-## Objectives
+<img src="http://i.dailymail.co.uk/i/pix/2012/11/07/article-2229251-15E55E49000005DC-134_634x673.jpg" alt="Drawing" style="width: 200px;"/>  
 
-1. Objective 1
-2. Objective 2.
 
-## Instructions
+> Often it isn't the mountains ahead that wear you out, it's the little pebble in your shoe. 
 
-Create make the tests pass Heroku lab. API Nokogiri guest speaker belongs_to RESTful binder.ply. Url Rails slack it to me. Asset pipeline Feelings Friday puts "woof" API open source.
+## Learning Objectives - The student should be able to..
 
-Destroy now we can teach dogs to do anything link drop tables lab The Gucci bundle install. Associations def iterate infobesity Twitter. Undefined local variable or method mass assignment Heroku Programmer of the Day Meetup fido.bark. Internet create. Ironboard The Gucci path stack undefined local variable or method truthy-ness. Sqlite3 scooter blog posts DRY The Gucci cat. Truthy-ness bundle.
+* Make dictionaries
+* Access elements in the dictionary
+* Update the value with a key
+* Recognize when they should use a dictionary
 
-### Part 1: Do Some Stuff
 
-## Resources
+## What the student can do at this point 
 
-* [Stack Exchange](http://www.stackexchange.com) - [Some Question on Stack Exchange](http://www.stackexchange.com/questions/123)
+* Create variables and constants
+* Is familiar with type annotations, type inference and string interpolation.
+* Can create functions with return types.
+* Is familiar with the String, Int, Double, and Bool type.
+* Can perform arithmetic operations on Int and Double.
+* Understands if and else clause statements.
+* Can create and use Arrays.
+* Can iterate over an Array using a for-in loop.
+* Can iterate over an Array calling enumerate().
+* Work with the following methods on arrays:
+	* append()
+	* insert(_:atIndex:)
+	* removeAtIndex()
+	* subscript syntax with arrays
+	* count
+	* isEmpty
+* Optionals
+* Just learned about dictionaries
+
+## Outline / Notes
+
+*  I like the idea of a harder problem (towards the end) asking them to have an array of strings be the value of keys that are of type String even though they would not have seen this yet.
+* Here is an [example](https://github.com/learn-co-curriculum/swift-allAboutFunctions-lab/blob/mdippery/MyPlayground.playground/Pages/main.xcplaygroundpage/Contents.swift) of a playground project that includes questions about functions.
 
 <a href='https://learn.co/lessons/DictionaryLab' data-visibility='hidden'>View this lesson on Learn.co</a>
