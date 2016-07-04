@@ -1,12 +1,12 @@
 /*: Outline
-
-
+ 
+ 
  # Dictionary
-
+ 
  ### Readings associated with this lab
-
+ 
  * [Dictionary](https://github.com/learn-co-curriculum/swift-dictionary-readme)
-
+ 
 
  */
 /*: question1
@@ -91,12 +91,12 @@ let state = "New York"
 
 /*: question11
  ### 11. Dictionaries don't have to contain just `String` keys and values. Create a dictionary that contains the name of a band, and the members of that band. Here are the bands and members that you can use:
-
+ 
  * Nirvana: Kurt Cobain, Krist Novoselic, Dave Grohl
  * The Beatles: John Lennon, George Harrison, Paul McCartney, Ringo Starr
  * The Breeders: Kim Deal, Kelley Deal, Josephine Wiggs, Jim Macpherson
  * Pixies: Frank Black, Joey Santiago, Kim Deal, David Lovering
-
+ 
  Since there are multiple members for each band, the value of each key should be an `Array`.
  */
 // write your code here
