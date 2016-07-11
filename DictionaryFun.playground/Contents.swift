@@ -15,12 +15,18 @@
 // write your code here
 
 
+var statesAndCapitals = ["New York" : "Albany",
+                         "Ohio": "Columbus",
+                         "Florida":"Tallahassee",
+                         "Georgia":"Atlanta",
+                         "Kentucky":"Frankfort"]
+
 
 
 /*: question2
  ### 2. What is the type of the dictionary you created in Question 1?
  */
-
+// [String:String]
 
 
 
@@ -30,13 +36,17 @@
 // write your code here
 
 
+var captial = statesAndCapitals["Florida"]
+
 
 
 /*: question4
  ### 4. Unwrap `capital` and print out the message "The capital of Florida is <Capital>" to the console.
  */
 // write your code here
-
+if let capital = captial{
+    print("The capital of Florida is \(capital)")
+}
 
 
 
@@ -46,13 +56,17 @@
 // write your code here
 
 
-
+var anotherCaptial = statesAndCapitals["Pennsylvania"]
 
 /*: question6
  ### 6. Unwrap `anotherCapital` and print out the message "I don't know Pennsylvania's capital" to the console.
  */
 // write your code here
-
+if let anotherCaptial = anotherCaptial{
+    print("I know Pennsylvania's capital")
+}else{
+    print("I don't know Pennsylvania's capital")
+}
 
 
 
@@ -60,6 +74,8 @@
  ### 7. Pennsylvania's capital is Harrisburg. Add it to your state capitals dictionary.
  */
 // write your code here
+
+statesAndCapitals["Pennsylvania"] = "Harrisburg"
 
 
 
@@ -69,13 +85,17 @@
  */
 // write your code here
 
-
+if let pennsylvaniaCapital = statesAndCapitals["Pennsylvania"]{
+    print("Pennsylvania's capital is \(statesAndCapitals["Pennsylvania"]!)")
+}
 
 
 /*: question9
  ### 9. We don't really care about Pennsylvania's capital. Delete it from the dictionary. Print your dictionary to the console to ensure it's gone.
  */
 // write your code here
+statesAndCapitals["Pennsylvania"] = nil
+print(statesAndCapitals)
 
 
 
@@ -84,6 +104,9 @@
  ### 10. You have been given the constant `state` with a state name. Use that constant to retrieve the state's capital from the dictionary. Print "The capital of <State> is <Capital>" to the console.
  */
 let state = "New York"
+
+print ("The capital of \(state) is \(statesAndCapitals[state]!)")
+
 // write your code here
 
 
@@ -102,13 +125,19 @@ let state = "New York"
 // write your code here
 
 
+var bandAndMembers = ["Nirvana" : ["Albany", "Krist Novoselic", "Dave Grohl"],
+                         "The Beatles":  ["John Lennon", "George Harrison", "Paul McCartney"],
+                         "The Breeders": ["Kim Deal", "Kelley Deal", "Josephine Wiggs", "Jim Macpherson"],
+                         "Pixies": ["Frank Black", "Joey Santiago", "Kim Deal"]]
+
+
 
 
 /*: question12
  ### 12. What is the type of the dictionary you created in Question 11?
  */
 
-
+// String:[String]
 
 
 /*: question13
@@ -117,6 +146,7 @@ let state = "New York"
 let bandName = "Pixies"
 // write your code here
 
+print(bandAndMembers[bandName]!)
 
 
 
